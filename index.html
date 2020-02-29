@@ -14,40 +14,54 @@
     <!-- header -->
     <div id="header">
         <nav class="navbar navbar-expand-lg">
-            <div class="logo">
-                <img src="https://www.gramedia.com/assets/gramedia-icon.svg" alt="">
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Kategori
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <button class="dropdown-item" type="button">Novel</button>
-                            <button class="dropdown-item" type="button">Antology</button>
-                            <button class="dropdown-item" type="button">Komik</button>
-                            <button class="dropdown-item" type="button">Filsafat</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="logo">
+                            <img src="https://www.gramedia.com/assets/gramedia-icon.svg" alt="">
                         </div>
-                </li>
-            </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Kategori
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <button class="dropdown-item" type="button">Novel</button>
+                                    <button class="dropdown-item" type="button">Antology</button>
+                                    <button class="dropdown-item" type="button">Komik</button>
+                                    <button class="dropdown-item" type="button">Filsafat</button>
+                                </div>
+                        </li>
+                    </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Cari Produk, Judul Buku, Penulis" aria-label="Search">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h3>Masuk
+                        <i class="fa fa-cart-plus"></i>
+                    </h3>
+                </div>
+                </div>
             </div>
-            <h3>Masuk
-                <i class="fa fa-cart-plus"></i>
-            </h3>
-            
         </nav>
     </div>
+    <br/>
+    <div class="">
+        <p>Home / buku / Bantuan Hukum / Pengembangan Diri / Sebuah Seni Untuk Bersikap Bodo Amat</p>
+    </div>
+    <br/>
     <!--content  -->
     <div id="content">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <div class="img-product">
-                        <img src="gamba1.jfif" alt="" height="300px" width="250px">
+                        <img src="gamba1.jfif" id="myImg" alt="" height="300px" width="250px">
                         <div class="icon-link">
                             <p>Bagikan :</p>
                             <i class="fa fa-facebook"></i>
@@ -55,22 +69,31 @@
                             <i class="fa fa-copy"></i>
             
                         </div>
+                        <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                        </div>
                     </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="nama-product">
                     <h1>Sebuah Seni untuk Bersikap Bodo Amat</h1>
                     <h3>Mark Manson</h3>
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="harga"> 
+            <div class="col-md-3">
+                <div class="harga alert alert-info"> 
                     <h3>Soft Cover</h3>
-                    <h4>Rp 67,000</h4>
-                <div class="button-action">
-                    <button>Beli Sekarang</button>
                     <br/>
-                    <button>Tambah Wishlist</button>
+                    <br/>
+                    <h4 class="text-danger">Rp 67,000</h4>
+                </div>   
+                <div class="button-action">
+                    <button class="btn btn-primary btn-lg btn-block">Beli Sekarang</button>
+                    <br/>
+                    <button class="btn btn-secondary btn-lg btn-block">Tambah Wishlist</button>
+                </div>
             </div>
         </div>
     </div>
@@ -91,7 +114,7 @@
             </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="tab-pane fade show active text-justify" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <p>"Selama berapa tahun belakangan, Mark Manson-melalui blognya yang sangat populer-telah membantu mengoreksi
                 harapan-harapn delusional kita, baik mengenai diri kita sendiri maupun dunia. Ia kini menuangkan buah pikirnya
                 yang keren itu dalam buku hebat ini.</p>
@@ -102,7 +125,18 @@
                 supaya kita bisa mulai menjalani kehidupan yang lebih memuaskan, dan apa adanya."
             </p>
             </div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            <div class="tab-pane fade text-justify" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p>Buku Baru</p>
+                <p> Judul   :Sebuah Seni untuk Bersikap Bodo Amat</p>
+                <p> Pengarang	:	Mark Manson</p>
+                <p>Harga Resmi	:	Rp. 67.000</p>
+                <p>Tanggal Terbit	:	5 Februari 2018</p>
+                <p>Bahasa		:	Indonesia</p>
+                <p>Kategori	:	Pengembangan Diri</p>
+                <p>Penerbit	:	Gramedia Widiasarana Indonesia</p>
+                <p>Halaman	:	256</p>
+                <p>Berat Buku   :	270 gr</p>
+            </div>
             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
         </div>
     </ul>
