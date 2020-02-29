@@ -13,6 +13,36 @@ html{
 .btn-color{
     background-color: #281e5a;
 }
+.menu{
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: #281e5a;
+    color: #fff;
+    z-index: 100;
+    box-shadow: 0 0 0 0 rgba(0,0,0,.12), 0 4px 4px 0 rgba(0,0,0,.24);
+    height: 65px;
+    font-family: Karla,sans-serif;
+}
+
+.search{
+    width: 1000px;
+    border-radius: 1px;
+    line-height: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    height: 38px;
+    background-color: #fff;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    padding-left: 20px;
+    color: #25225a;
+    -webkit-appearance: none;
+    outline: 0!important;
+}
+
+
 /* image modal */
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img */
 #myImg {
