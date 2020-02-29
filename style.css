@@ -1,0 +1,12 @@
+html{
+    background-color:white;
+
+}
+
+#header{
+    background-color: #281e5a;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+

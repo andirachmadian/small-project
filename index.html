@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gramedia</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="logo">
+                <img src="https://www.gramedia.com/assets/gramedia-icon.svg" alt="">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kategori
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button">Novel</button>
+                            <button class="dropdown-item" type="button">Antology</button>
+                            <button class="dropdown-item" type="button">Komik</button>
+                            <button class="dropdown-item" type="button">Filsafat</button>
+                        </div>
+                </li>
+            </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+            <h3>Masuk
+                <i class="fa fa-cart-plus"></i>
+            </h3>
+            
+        </nav>
+    </div>
+    <!--content  -->
+    <div id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="img-product">
+                        <img src="gamba1.jfif" alt="" height="300px" width="250px">
+                        <div class="icon-link">
+                            <p>Bagikan :</p>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+            
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-8">
+                <div class="nama-product">
+                    <h1>Sebuah Seni untuk Bersikap Bodo Amat</h1>
+                    <h3>Mark Manson</h3>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="harga"> 
+                    <h3>Soft Cover</h3>
+                    <h4>Rp 67,000</h4>
+                <div class="button-action">
+                    <button>Beli Sekarang</button>
+                    <br/>
+                    <button>Tambah Wishlist</button>
+            </div>
+        </div>
+    </div>
+        
+        
+        
+    <!-- detail -->
+    <div id="detail">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Deskripsi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Detail</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Komentar</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p>"Selama berapa tahun belakangan, Mark Manson-melalui blognya yang sangat populer-telah membantu mengoreksi
+                harapan-harapn delusional kita, baik mengenai diri kita sendiri maupun dunia. Ia kini menuangkan buah pikirnya
+                yang keren itu dalam buku hebat ini.</p>
+            <br/>
+            <p>"Dalam hidup ini, kita hanya punya kepedulian dalam jumlah yang terbatas, Makanya, Anda harus bijaksana dalam menentukan
+                kepeduliaan Anda." Manson menciptakan momen perbincangan yang serius dan mendalam, dibungkus dengan cerita-cerita yang
+                menghibur dan "kekinian", serta humor yang cadas. Buku ini merupakan tamparan di wajah yang menyegarkan untuk kita semua,
+                supaya kita bisa mulai menjalani kehidupan yang lebih memuaskan, dan apa adanya."
+            </p>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+        </div>
+    </ul>
+    </div>
+    <!-- javascrip-link -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
