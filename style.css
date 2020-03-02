@@ -1,6 +1,6 @@
 html{
     background-color:white;
-
+    font-family: Karla,sans-serif;
 }
 
 #header{
@@ -42,6 +42,16 @@ html{
     outline: 0!important;
 }
 
+.range{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.paragraph-nav{
+    padding-left: 200px;
+    color: grey;
+    font-size: small;
+}
 
 /* image modal */
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img */
@@ -57,7 +67,7 @@ html{
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 100; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
